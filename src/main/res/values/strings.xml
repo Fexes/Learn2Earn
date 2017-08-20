@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="current_version">0.9.1</string>
+    <string name="app_name">Class Room</string>
+    <string name="splash_app_title">Video &amp; Audio \nChat Sample</string>
+    <string name="splash_create_session_error">Create session errors:</string>
+    <string name="show_screenshot">Take Screenshot</string>
+    <string name="signature_hint">First and last name</string>
+    <string name="age_hint">Age</string>
+    <string name="signature_label">Insert your signature here</string>
+    <string name="cancel_all">Cancel all</string>
+    <string name="delete_draw">Delete draw</string>
+    <string name="github_hint">Show Git Repository</string>
+    <string name="github_url">https://github.com/RiccardoMoro</string>
+    <string name="error_opening_url">Error opening link</string>
+    <string name="redo">Redo</string>
+    <string name="undo">Undo</string>
+    <string name="stroke_alpha">Stroke alpha</string>
+    <string name="stroke_width">Stroke width</string>
+    <string name="random_color">Random color</string>
+    <string name="all_app_version">Sample UI v%1$s / SDK v%2$s</string>
+    <string name="preference_resolution_title">Resolution</string>
+    <string name="preference_resolution_summary">Select the resolution to record at</string>
+    <string name="preference_fps_title">Frames per second</string>
+    <string name="preference_fps_summary">Choose fps to record at</string>
+    <string name="preference_bit_title">Bit rate</string>
+    <string name="preference_bit_summary">Choose bit rate</string>
+    <string name="preference_audio_record_title">Record audio</string>
+    <string name="preference_audio_record_summary">Records audio from mic along with screen video</string>
+    <string name="preference_save_location_title">Save location</string>
+    <string name="res_key" translatable="false">resolution</string>
+    <string name="fps_key" translatable="false">fps</string>
+    <string name="bitrate_key" translatable="false">bitrate</string>
+    <string name="audiorec_key" translatable="false">audiorec</string>
+    <string name="savelocation_key" translatable="false">savelocation</string>
+    <string name="filename_key" translatable="false">filename</string>
+    <string name="preference_filename_format_title">File name format</string>
+    <string name="fileprefix_key" translatable="false">fileprefix</string>
+    <string name="preference_filename_prefix_title">File name prefix</string>
+    <string name="storage_permission_request_title">Allow Storage Permission</string>
+    <string name="storage_permission_request_summary">Write permission to storage is required to save the recorded video.</string>
+    <string name="ok">OK</string>
+
+    <string name="screen_recording_permission_denied">Screen Recording Permission Denied</string>
+    <string name="screen_recording_notification_title">Screen recording</string>
+    <string name="screen_recording_notification_action_stop">Stop</string>
+    <string name="screen_recording_notification_action_pause">Pause</string>
+    <string name="screen_recording_notification_action_resume">Resume</string>
+    <string name="fatal_exception_message">ScreenRecorder: Fatal Exception occurred. Log has been sent</string>
+    <string name="about_activity_label">About</string>
+    <string name="snackbar_storage_permission_message">Grant storage perm</string>
+    <string name="snackbar_storage_permission_action_enable">ENABLE</string>
+    <string name="menu_about_title">About</string>
+    <string name="about_credits">Credits</string>
+    <string name="about_libraries">Libraries</string>
+    <string name="about_opensource">Open Source</string>
+    <string name="app_icon_credit_Niko">App Icons by %1$s\n\nwebsite: %2$s</string>
+    <string name="video_editor_library_credit">Video Editor by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
+    <string name="analytics_library_credit">Crash reporting and analytics SDK by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
+    <string name="opensource_info">This app is opensourced and the source could be obained at \n\nGithub url: %1$s\n\nLicense: %2$s</string>
+    <string name="fab_record_hint">Start recording</string>
+    <string name="recording_failed_toast">Screen recording failed.</string>
+    <string name="screenrecording_already_active_toast">Screen recording session already active</string>
+    <string name="large_resolution_selected_toast">The selected resolution is larger than display resolution. Using %1$s resolution instead</string>
+    <string name="shortcut_short_label">Record</string>
+    <string name="shortcut_long_label">Quick Record</string>
+    <string name="shortcut_disabled_message">Recording disabled</string>
+    <string name="app_shortcut_action" translatable="false">com.quickblox.sample.groupchatwebrtc.RECORD</string>
+    <string name="screen_recording_started_toast">Screen recording started</string>
+    <string name="screen_recording_stopped_toast">Screen Recording stopped</string>
+    <string name="screen_recording_resumed_toast">Screen Recording resumed</string>
+    <string name="screen_recording_paused_toast">Screen Recording paused</string>
+    <string name="fab_stop_hint">Stop recording</string>
+    <string name="share_intent_title">Share recorded</string>
+    <string name="share_intent_notification_title">Share recorded video</string>
+    <string name="share_intent_notification_content">click to share the recorded video</string>
+    <string name="share_intent_notification_action_text">Share</string>
+    <string name="preference_floating_control_title">Use Floating Controls</string>
+    <string name="preference_floating_control_summary">Enable/Disable floating controls which draws over every screen</string>
+    <string name="preference_floating_control_key" translatable="false">floating_controls</string>
+    <string name="tab_settings_title">Settings</string>
+    <string name="tab_videos_title">Videos</string>
+    <string name="video_list_permission_denied_message">Storage permission denied</string>
+    <string name="video_list_no_video_message">No videos available</string>
+    <string name="alert_title_create_folder">Create Folder</string>
+    <string name="alert_message_create_folder">Enter folder name</string>
+    <string name="prefs_category_video_settings_title">Video settings</string>
+    <string name="prefs_category_audio_settings_title">Audio settings</string>
+    <string name="prefs_category_save_options_title">Save options</string>
+    <string name="prefs_category_misc_title">Misc</string>
+    <string name="menu_privacy_policy">Privacy Policy</string>
+    <string name="preference_show_touch_title">Show touches</string>
+    <string name="preference_show_touch_summary">Enable/disable touch</string>
+    <string name="preference_show_touch_key" translatable="false">touch_pointer</string>
+    <string name="alert_plugin_not_found_title">Plugin not found</string>
+    <string name="alert_plugin_not_found_message">Plugin is required to show touches. Do you want to buy it now?</string>
+    <string name="alert_permission_denied_title">Storage Permission Denied</string>
+    <string name="alert_permission_denied_message">The app requires storage permission to save the recorded video and change default save directory.The app is rendered useless without the permission\n\nDo you want to grant it now?</string>
+    <string name="edit_intent_notification_action_text">Edit</string>
+    <string name="prefs_category_analytics_title">Anonymous analytics</string>
+    <string name="preference_crash_reporting_title">Crash reporting</string>
+    <string name="preference_crash_reporting_summary">Enable anonymous crash reporting</string>
+    <string name="preference_crash_reporting_key" translatable="false">crash_reporting</string>
+    <string name="preference_anonymous_statistics_title">Anonymous statistics</string>
+    <string name="preference_anonymous_statistics_summary">Enable anonymous statistics on number of app usages</string>
+    <string name="preference_anonymous_statistics_key" translatable="false">usage_statistics</string>
+    <string name="preference_floating_control_size_title">Floating controls icon size</string>
+    <string name="preference_floating_control_size_summary">Set the icon size of on-screen floating control</string>
+    <string name="preference_floating_control_size_key" translatable="false">floatingControlSize</string>
+    <string name="storage_selection_spinner_title">Select storage</string>
+    <string name="external_storage_dir_not_writable">The directory is not writable</string>
+    <string name="alert_external_storage_warn_cb_text">Do not show again</string>
+    <string name="alert_ext_dir_warning_title">Warning</string>
+    <string name="alert_ext_dir_warning_message">Saving to external directory may not work on all phones. Proceed with caution.</string>
+
+    <string name="all_create">Create</string>
+    <string name="all_invite">Invite</string>
+
+    <string name="all_group_channels">Group Channels</string>
+    <string name="all_open_channels">Open Channels</string>
+
+    <!-- main -->
+    <string name="main_drawer_open">Open navigation drawer</string>
+    <string name="main_drawer_close">Close navigation drawer</string>
+    <string name="select_channel_type">Select channel type</string>
+
+    <!-- login -->
+    <string name="login_user_id">User ID</string>
+    <string name="login_user_nickname">Nickname</string>
+    <string name="login_connect">Connect</string>
+
+    <!-- Open Channel List -->
+    <string name="open_channel_list_participant_count">%1$d participants</string>
+
+    <string name="create_open_channel">Create Open Channel</string>
+    <string name="participant_list">Participants</string>
+
+    <!-- Group Channel List -->
+    <string name="group_channel_list_file_message_text">%1$s has uploaded a file.</string>
+
+    <string name="create_group_channel">Create Group Channel</string>
+    <string name="member_list">Members</string>
+    <string name="invite_member">Invite members</string>
+
+    <!-- Content descriptions -->
+    <string name="open_channel_chat_content_desc_profile">Profile image</string>
+
+    <!-- Menu actions -->
+    <string name="action_create_channel">Create channel</string>
+
+    <string name="download">Download</string>
+    <string name="cancel">Cancel</string>
+    <string name="upload">Upload</string>
+    <string name="resend_message">Resend</string>
+    <string name="delete_message">Delete</string>
+
+    <!-- Message Status -->
+    <string name="message_sending">Sending</string>
+    <string name="message_failed">Failed</string>
+
+    <!-- Dialogs strings. -->
+    <string name="dlg_signal_error">Disconnected… Please check your Internet connection!</string>
+    <string name="dlg_login">Login…</string>
+    <string name="dlg_sign_in">Sign In…</string>
+    <string name="dlg_updating_user">Updating user…</string>
+    <string name="dlg_creating_new_user">Loadig…</string>
+    <string name="dlg_logout">Logout…</string>
+    <string name="dlg_loading_opponents">Loading opponents…</string>
+
+
+    <!-- Errors strings. -->
+    <string name="error_max_opponents_count">You can select up to %d opponents</string>
+    <string name="sign_up_error">Error creating new user, please try again</string>
+    <string name="sign_in_error_with_error">Sign In error. Error</string>
+    <string name="sign_in_error_without_error">Sign In error</string>
+    <string name="logout_user_with_error">Logout user error. Error</string>
+
+    <string name="error_empty_login">Login can not be empty</string>
+    <string name="error_empty_chat_room_name">Chat room name can not be empty</string>
+
+    <string name="login_chat_login_error">Login Chat error. Please relogin. Error</string>
+    <string name="update_user_error">Update user error. Error</string>
+    <string name="loading_users_error">Loading users error. Error</string>
+
+    <string name="permission_unavailable">%s is not available now!</string>
+
+    <string name="field_name_user_name">User name</string>
+    <string name="field_name_chat_room_name">Chat room name</string>
+
+    <string name="error_name_must_not_contain_special_characters_from_app">%1$s must contain 3 &#8212; %2$s alphanumeric Latin characters without space, the first char must be a letter</string>
+
+    <!--menu-->
+    <string name="action_start_login">Done</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_screen_share">Screen share</string>
+    <string name="action_update_opponens_list">Update opponents list</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_start_video_call">Video call</string>
+    <string name="action_start_audio_call">Audio call</string>
+
+
+    <!--action bar-->
+    <string name="actionbar_title_settings">Settings</string>
+    <string name="title_login_activity">Enter to chat</string>
+    <string name="subtitle_text_logged_in_as">Logged in as %s</string>
+    <string name="title_one_user_selected">%s user selected</string>
+    <string name="tile_many_users_selected">%s users selected</string>
+
+
+    <string name="incoming_call">Incoming Call</string>
+    <string name="also_on_call">Also on call:</string>
+    <string name="edit_opponents_list">Edit opponents list</string>
+    <string name="incoming_audio_call">Incoming Audio Call</string>
+    <string name="incoming_video_call">Incoming Video Call</string>
+    <string name="outgoing_audio_video_call_title">%s\n\nRinging</string>
+    <string name="user_list_on_call">User 1, User 2, User 3, User 4, User 5, User 6</string>
+
+
+    <string name="opponent_pending">Pending</string>
+    <string name="opponent_closed">Closed</string>
+    <string name="text_incoming_audio_call">Incoming Audio Call</string>
+    <string name="text_incoming_video_call">Incoming Video Call</string>
+    <string name="text_status_connect">Connect…</string>
+    <string name="text_status_checking">Checking…</string>
+    <string name="text_status_connected">Connected</string>
+    <string name="text_status_disconnected">Disconnected</string>
+
+    <string name="text_status_rejected">Rejected</string>
+    <string name="text_status_no_answer">No answer</string>
+    <string name="text_status_hang_up">Hung up</string>
+    <string name="text_status_closed">Closed</string>
+    <string name="text_status_time_out">Time Out</string>
+    <string name="text_status_failed">Failed</string>
+
+    <string name="text_welcoming_message">Please enter username and chat room name. \nYou can join existed chat room.</string>
+    <string name="hint_user_name">User name</string>
+    <string name="hint_chat_room_name">Chat room name</string>
+
+    <string name="text_select_user_to_call">Select users you want to call</string>
+
+    <string name="call_was_stopped_connection_lost">Call was stopped because connection was lost</string>
+    <string name="connection_lost">Connection lost</string>
+
+    <string name="text_push_notification_message">"%s is calling you"</string>
+
+
+    <!-- Settings strings. -->
+    <string name="title_video_category">Video</string>
+    <string name="title_call_settings_category">Call Settings</string>
+
+    <string name="pref_default_value">Default</string>
+    <integer name="pref_default_int_value">0</integer>
+
+    <string name="pref_default_camera_key">default_camera_preference</string>
+    <string name="pref_default_camera_title">Default Camera</string>
+    <string name="pref_default_camera_dlg">Select default camera</string>
+    <string name="pref_default_camera_default">0</string>
+
+    <string name="pref_frame_rate_key">frame_rate</string>
+    <string name="pref_frame_rate_title">Frame Rate (0&#8211;30)</string>
+    <string name="pref_frame_rate_default">0</string>
+    <integer name="pref_frame_rate_min_value">0</integer>
+    <integer name="pref_frame_rate_max_value">30</integer>
+    <integer name="pref_frame_rate_stepSize">5</integer>
+
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="pref_resolution_title">Video Format</string>
+    <string name="pref_resolution_dlg">Enter RTC local video resolution</string>
+    <string name="pref_resolution_default">-1</string>
+
+    <string name="pref_startbitrate_key">startbitrate_preference</string>
+    <string name="pref_startbitrate_title">Start bitrate setting</string>
+    <string name="pref_startbitrate_dlg">Start bitrate setting</string>
+    <string name="pref_startbitrate_default">Default</string>
+
+    <string name="pref_startbitratevalue_key">startbitratevalue_preference</string>
+    <string name="pref_startbitratevalue_title">Bandwidth (0&#8211;2000)</string>
+    <string name="pref_startbitratevalue_default">0</string>
+    <integer name="pref_startbitratevalue_min_value">0</integer>
+    <integer name="pref_startbitratevalue_max_value">2000</integer>
+    <integer name="pref_startbitratevalue_step_size">100</integer>
+
+    <string name="pref_disable_built_in_aec_key">disable_built_in_aec_preference</string>
+    <string name="pref_disable_built_in_aec_title">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_dlg">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_default">false</string>
+    <string name="pref_built_in_aec_not_available">Built-in AEC is not available</string>
+
+    <string name="pref_opensles_key">opensles_preference</string>
+    <string name="pref_opensles_title">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_dlg">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_default">false</string>
+
+    <string name="pref_noaudioprocessing_key">audioprocessing_preference</string>
+    <string name="pref_noaudioprocessing_title">Disable audio processing</string>
+    <string name="pref_noaudioprocessing_dlg">Disable audio processing pipeline</string>
+    <string name="pref_noaudioprocessing_default">false</string>
+
+    <!--Call Settings-->
+
+    <string name="pref_answer_time_interval_key">answer_time_interval</string>
+    <string name="pref_answer_time_interval_title">Answer Time Interval (15&#8211;90s)</string>
+    <string name="pref_answer_time_interval_default_value">60</string>
+    <integer name="pref_answer_time_interval_min_value">15</integer>
+    <integer name="pref_answer_time_interval_max_value">90</integer>
+    <integer name="pref_answer_time_interval_step_size">5</integer>
+
+    <string name="pref_disconnect_time_interval_key">disconnect_time_interval</string>
+    <string name="pref_disconnect_time_interval_title">Disconnect Time Interval (10&#8211;90s)</string>
+    <string name="pref_disconnect_time_interval_default_value">10</string>
+    <integer name="pref_disconnect_time_interval_min_value">10</integer>
+    <integer name="pref_disconnect_time_interval_max_value">90</integer>
+    <integer name="pref_disconnect_time_interval_step_size">5</integer>
+
+    <string name="pref_dialing_time_interval_key">Dialing_time_interval</string>
+    <string name="pref_dialing_time_interval_title">Dialing Time Interval (3&#8211;10s)</string>
+    <string name="pref_dialing_time_interval_default_value">5</string>
+    <integer name="pref_dialing_time_interval_min_value">3</integer>
+    <integer name="pref_dialing_time_interval_max_value">10</integer>
+    <integer name="pref_dialing_time_interval_step_size">1</integer>
+
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec</string>
+    <string name="pref_videocodec_dlg">Select default video codec</string>
+    <string name="pref_videocodec_default">0</string>
+
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration</string>
+    <string name="pref_hwcodec_default">true</string>
+
+    <string name="pref_value_enabled">Enabled</string>
+    <string name="pref_value_disabled">Disabled</string>
+
+    <string name="pref_room_server_url_key">room_server_url_preference</string>
+    <string name="pref_room_server_url_title">Room server URL.</string>
+    <string name="pref_room_server_url_dlg">Enter a room server URL.</string>
+    <string name="pref_room_server_url_default" translatable="false">https://apprtc.appspot.com</string>
+
+    <string name="pref_displayhud_key">displayhud_preference</string>
+    <string name="pref_displayhud_title">Display call statistics.</string>
+    <string name="pref_displayhud_dlg">Display call statistics.</string>
+    <string name="pref_displayhud_default" translatable="false">false</string>
+    <string name="pref_audiocodec_key">pref_audio_codec</string>
+    <string name="pref_audiocodec_title">Default audio codec</string>
+    <string name="pref_audiocodec_def">ISAC</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec</string>
+    <string name="pref_version">QuickBlox WebRTC\nBuild version 1.12</string>
+    <string name="btn_screen_capture">screenShot</string>
+    <string name="accepted">Accepted</string>
+    <string name="connection_was_lost">Connection was lost</string>
+
+    <string name="opponents">and %s other</string>
+    <string name="opponent">and %s </string>
+    <string name="ringing">Ringing</string>
+    <string name="stop_share">Stop</string>
+    <string name="camera_swicth_failed">\"Failed switch camera\"</string>
+
+    <string name="sender_id">761750217637</string>
+
+</resources>
